@@ -72,3 +72,131 @@ body {
   cursor: pointer;
   color: #f53855;
 }
+
+.page-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(136, 107, 217, 0.1);
+  padding: 56px;
+}
+
+.title-heading {
+  font-size: 44px;
+  font-weight: 700;
+  width: 700px;
+  text-align: center;
+}
+
+.title-content {
+  font-size: 16px;
+  font-weight: 400;
+  width: 700px;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #f53838;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 48px;
+  transition: background-color 250ms ease-in-out, color: #f53838 ease-in-out;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: #bb2929;
+}
+
+.btn-primary:active {
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: #f53838;
+}
+
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.section-title-container {
+    text-align: center;
+    width: 900px;
+}
+
+.section-title-container h3 {
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0.1px;
+}
+
+.section-title-container p {
+  font-weight: 400;
+  font-size: 16px;
+  color: gray;
+}
+
+.section-title-container a {
+  text-decoration: none;
+  color: rgb(136, 127, 255);
+}
+
+.section-title-container a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  width: 400px;
+  border: 1px solid #f2f2f2;
+  border-radius: 16px;
+}
+
+.card h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 24px;
+  color: grey;
+}
+
+.card-body {
+  margin: 24px;
+}
+
+.card-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 168px;
+  background-color: #d2ebf7;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  /* atau border-radius: 16px 16px 0px 0px; */
+}
+
+.card-head img {
+  height: 120px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 56px;
+}
+
+.cards-container .card {
+  margin: 8px 16px
+}
