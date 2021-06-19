@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: Mulish, sans-serif;
 }
@@ -199,4 +203,76 @@ body {
 
 .cards-container .card {
   margin: 24px 16px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  border-top: 1px solid #dbdbdb;
+  margin: 0 90px;
+}
+
+.contact-items-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 56px;
+}
+
+.contact-item {
+  width: 300px;
+}
+
+.contact-item h6,
+.contact-item p {
+  margin-left: 30px;
+}
+
+.contact-item h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #373f41;
+}
+
+.contact-item p {
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #373f41;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(136, 107, 217, 0.1);
+  padding: 120px 0;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item h6 {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.footer-item a {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: slateblue;
+  margin-top: 8px;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
 }
